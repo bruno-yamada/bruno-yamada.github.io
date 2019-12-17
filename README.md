@@ -1,3 +1,3 @@
 # bruno-yamada.github.io
 
-My website
+Compiled static website
