@@ -6,9 +6,37 @@
     <description>Recent content in Categories on Bruno Yamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 13:17:47 -0300</lastBuildDate>
     
 	<atom:link href="https://bruno-yamada.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Books</title>
+      <link>https://bruno-yamada.github.io/categories/books/</link>
+      <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://bruno-yamada.github.io/categories/devops/</link>
+      <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SRE</title>
+      <link>https://bruno-yamada.github.io/categories/sre/</link>
+      <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/categories/sre/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

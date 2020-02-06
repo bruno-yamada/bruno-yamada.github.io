@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Bruno Yamada</title>
+    <link>https://bruno-yamada.github.io/categories/books/</link>
+    <description>Recent content in Books on Bruno Yamada</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 13:17:47 -0300</lastBuildDate>
+    
+	<atom:link href="https://bruno-yamada.github.io/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SITE RELIABILITY ENGINEER - Reading Notes</title>
+      <link>https://bruno-yamada.github.io/posts/site_reliability_engineer/</link>
+      <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/posts/site_reliability_engineer/</guid>
+      <description>SITE RELIABILITY ENGINEER - Reading Notes Chapter 1 - Introduction  Hope is not a strategy
+ At Google, most SREs are either from SoftDev team or are from closely related positions, but almost always they are devs
+Google&amp;rsquo;s approach has SREs dedicate at max 50% of their time to ops tickets, the other 50% is spent in developing
+ We want systems that are automatic, not just automated</description>
+    </item>
+    
+  </channel>
+</rss>
