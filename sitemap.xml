@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bruno-yamada.github.io/tags/books/</loc>
+    <loc>https://bruno-yamada.github.io/categories/books/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bruno-yamada.github.io/categories/books/</loc>
+    <loc>https://bruno-yamada.github.io/tags/books/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   
@@ -48,23 +48,18 @@
   </url>
   
   <url>
-    <loc>https://bruno-yamada.github.io/categories/sre/</loc>
+    <loc>https://bruno-yamada.github.io/tags/sre/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bruno-yamada.github.io/tags/sre/</loc>
+    <loc>https://bruno-yamada.github.io/categories/sre/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://bruno-yamada.github.io/tags/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bruno-yamada.github.io/posts/hello-workd/</loc>
-    <lastmod>2019-12-17T13:17:47-03:00</lastmod>
   </url>
   
 </urlset>

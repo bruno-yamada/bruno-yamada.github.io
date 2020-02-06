@@ -23,14 +23,5 @@ Google&amp;rsquo;s approach has SREs dedicate at max 50% of their time to ops ti
  We want systems that are automatic, not just automated</description>
     </item>
     
-    <item>
-      <title>Hello Workd</title>
-      <link>https://bruno-yamada.github.io/posts/hello-workd/</link>
-      <pubDate>Tue, 17 Dec 2019 13:17:47 -0300</pubDate>
-      
-      <guid>https://bruno-yamada.github.io/posts/hello-workd/</guid>
-      <description>Whatsaaaap!</description>
-    </item>
-    
   </channel>
 </rss>
