@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Bruno Yamada  | SITE RELIABILITY ENGINEER - Reading Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.57.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="SITE RELIABILITY ENGINEER - Reading Notes" />
+<meta property="og:description" content="Great book about how Google handles and improved DevOps" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bruno-yamada.github.io/posts/0001-site_reliability_engineer/" />
+<meta property="article:published_time" content="2020-01-01T13:17:47-03:00" />
+<meta property="article:modified_time" content="2020-01-01T13:17:47-03:00" />
+<meta itemprop="name" content="SITE RELIABILITY ENGINEER - Reading Notes">
+<meta itemprop="description" content="Great book about how Google handles and improved DevOps">
+
+
+<meta itemprop="datePublished" content="2020-01-01T13:17:47-03:00" />
+<meta itemprop="dateModified" content="2020-01-01T13:17:47-03:00" />
+<meta itemprop="wordCount" content="841">
+
+
+
+<meta itemprop="keywords" content="SRE,DevOps,Books,Review," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SITE RELIABILITY ENGINEER - Reading Notes"/>
+<meta name="twitter:description" content="Great book about how Google handles and improved DevOps"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://bruno-yamada.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Bruno Yamada
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">SITE RELIABILITY ENGINEER - Reading Notes</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-01-01T13:17:47-03:00">January 1, 2020</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h1 id="site-reliability-engineer-reading-notes">SITE RELIABILITY ENGINEER - Reading Notes</h1>
+
+<h1 id="part-1-introduction">Part 1 - Introduction</h1>
+
+<h2 id="chapter-1-introduction">Chapter 1 - Introduction</h2>
+
+<blockquote>
+<p>Hope is not a strategy</p>
+</blockquote>
+
+<p>At Google, most SREs are either from SoftDev team or are from closely related positions, but almost always they are devs</p>
+
+<p>Google&rsquo;s approach has SREs dedicate at max 50% of their time to ops tickets, the other 50% is spent in developing</p>
+
+<blockquote>
+<p>We want systems that are automatic, not just automated</p>
+</blockquote>
+
+<p>The SRE team is responsible for:
+availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning of their service</p>
+
+<p>100% SLA is unreasonable, since, for web systems, the difference between 99.999% and 100% is mostly unnoticeable by the user, since their laptop,wifi,ISP,powergrid and such are collective also responsible for the SLA perceived by the user, thus 100% is not worth, since that last 0.001% is not worth the effort.</p>
+
+<p>So you can assume something like 99.9% SLA, and them you have an &ldquo;error budget&rdquo; of 0.1%, now, with this error budget, and you can consider it as a budget, you have some margin to spend that budget with as the strategy sees fit.</p>
+
+<p>If the development team wans to deploy as quickly as possible, and the SREs wants to keep the system up as much as possible, with an budget of 0.1%, you can make some margin for minor errors, as long as you dont overspend your budget</p>
+
+<h3 id="monitoring">Monitoring</h3>
+
+<p>Paramound for SREs, but it need to be taken right, there are 3 kinds of monitoring outputs:
+- Alerts: demands human action immediately, in response to something that happened or is about to happen
+- Tickets: human needs to take action, but not immeadiately, it is affecting the system, but action can be taken in a few days without causing damage to the system
+- Logging: No one needs to look at this information, but it is recorded for diagnostic or forensic purposes</p>
+
+<h3 id="emergency-response">Emergency response</h3>
+
+<p>That are 2 metrics, MTTF(mean time to failure) and MTTR(mean time to repair), most important being how long the team can put a system back online MTTR</p>
+
+<p>Humans add latency to MTTR, so automatic responses area always faster, an ninja dev can think on the fly, but a regular dev with a proper <em>playbooks</em>(step-by-step recovery plans) can work faster than him.</p>
+
+<h3 id="change-management">Change Management</h3>
+
+<p>At google, 70% of problems are due to code change to live system, as such its best to:
+- progressive rollout
+- quickly detect problem
+- rollback safely when problem occur</p>
+
+<h3 id="demand-forecasting-and-capacity-planning">Demand Forecasting and Capacity Planning</h3>
+
+<p>Try to forecast demand, organic or not, have to proper capacity to proccess it, do regular load testings to correlate raw capacity(server, disk, network, etc) with service capacity</p>
+
+<h3 id="efficiency-and-performance">Efficiency and Performance</h3>
+
+<p>SREs predict demand, provision capacity, and can modify the software(they can modify software in some situations)</p>
+
+<p>SREs need to monitor and improve efficiency, if the company cares about the money</p>
+
+<h2 id="chapter-2-the-production-environment-at-google-from-the-viewpoint-of-an-sre">Chapter 2 - The Production Environment at Google, from the Viewpoint of an SRE</h2>
+
+<h3 id="managing-machines">Managing Machines</h3>
+
+<p>Borg, which is similar do Apache Mesos, is what Google uses to manage its clusters</p>
+
+<p>Tasks given to Borg are allocated to appropriate server and monitored by it, if it fails or malfunctions it is restarted on probably another server</p>
+
+<p>Tasks are give an unique identifier, since in a cluster environment they cannot be identified by a IP address or port, so Borg Naming Service maps the unique identifier to the appropriate host and port</p>
+
+<p>By design, Borg kills tasks which uses more resources(CPU/RAM) than explicitly required by it, since its preferable to have a &ldquo;a slowly crashlooping task&rdquo; than a task that doesn&rsquo;t run at all</p>
+
+<h3 id="monitoring-and-alerting">Monitoring and Alerting</h3>
+
+<p>&ldquo;Borgmon&rdquo; scrapes monitored servers, to account for:
+- setup alert for acute problems
+- compare behavior, did software update me the server faster
+- <strong>Examine how resource consumption behavior evolves over time, which is essential for capacity planning</strong></p>
+
+<h3 id="our-software-infrastructure">Our Software Infrastructure</h3>
+
+<p>Our software architecture is designed to make the most efficient use of our hardware infrastructure. Our code is heavily multithreaded, so one task can easily use many cores</p>
+
+<p>All of google servers have an HTTP server which provides statistics for a given task.</p>
+
+<h3 id="our-development-environment">Our Development Environment</h3>
+
+<p>Google uses a Monolithic code base, so a <a href="https://dl.acm.org/doi/10.1145/2854146">single repository</a> for all projects</p>
+
+<p>All changes are reviewed, and when commits are pushed, all projects which depends on it are tested along side it</p>
+
+<p>Some projects use a push-to-green system where a new version is pushed to production after passing tests</p>
+
+<h1 id="part-2-principles">Part 2 - Principles</h1>
+
+<p>SREs are about embracing risk, its assessment, management, and use of error budgets</p>
+
+<p>Eliminating toil(mundane, repetitive work, no enduring value, scales linearly with service growth) is one of its most important tasks.</p>
+
+<p>If you cannot monitor a service, you don&rsquo;t know what is happening, and if so, you are not reliable</p>
+
+<p>Increasing product velocity safely is a core principle for any organization. In &ldquo;Making Push On Green a Reality&rdquo; <a href="https://www.usenix.org/publications/login/october-2014-vol-39-no-5/making-push-green-reality">Kle14</a>, published in October 2014, we show that taking humans out of the release process can paradoxically reduce SREs’ toil while increasing system reliability.</p>
+
+<h2 id="chapter-3-embracing-risk">Chapter 3 - Embracing risk</h2>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/sre" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">SRE</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/devops" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">DevOps</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/books" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Books</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/review" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Review</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://bruno-yamada.github.io/" >
+    &copy; 2020 Bruno Yamada
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

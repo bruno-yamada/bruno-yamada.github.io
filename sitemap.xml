@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bruno-yamada.github.io/categories/books/</loc>
-    <lastmod>2020-01-01T13:17:47-03:00</lastmod>
+    <loc>https://bruno-yamada.github.io/</loc>
+    <lastmod>2020-02-26T00:17:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bruno-yamada.github.io/categories/</loc>
+    <lastmod>2020-02-26T00:17:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bruno-yamada.github.io/posts/</loc>
+    <lastmod>2020-02-26T00:17:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bruno-yamada.github.io/tags/python/</loc>
+    <lastmod>2020-02-26T00:17:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bruno-yamada.github.io/categories/python/</loc>
+    <lastmod>2020-02-26T00:17:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bruno-yamada.github.io/tags/</loc>
+    <lastmod>2020-02-26T00:17:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bruno-yamada.github.io/posts/0002-python__init__/</loc>
+    <lastmod>2020-02-26T00:17:47-03:00</lastmod>
   </url>
   
   <url>
@@ -13,12 +43,7 @@
   </url>
   
   <url>
-    <loc>https://bruno-yamada.github.io/</loc>
-    <lastmod>2020-01-01T13:17:47-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bruno-yamada.github.io/categories/</loc>
+    <loc>https://bruno-yamada.github.io/categories/books/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   
@@ -33,17 +58,12 @@
   </url>
   
   <url>
-    <loc>https://bruno-yamada.github.io/posts/</loc>
-    <lastmod>2020-01-01T13:17:47-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bruno-yamada.github.io/tags/review/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bruno-yamada.github.io/posts/site_reliability_engineer/</loc>
+    <loc>https://bruno-yamada.github.io/posts/0001-site_reliability_engineer/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   
@@ -54,11 +74,6 @@
   
   <url>
     <loc>https://bruno-yamada.github.io/categories/sre/</loc>
-    <lastmod>2020-01-01T13:17:47-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bruno-yamada.github.io/tags/</loc>
     <lastmod>2020-01-01T13:17:47-03:00</lastmod>
   </url>
   

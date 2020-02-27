@@ -6,18 +6,27 @@
     <description>Recent content on Bruno Yamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 13:17:47 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:17:47 -0300</lastBuildDate>
     
 	<atom:link href="https://bruno-yamada.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>What python __init__.py is used for</title>
+      <link>https://bruno-yamada.github.io/posts/0002-python__init__/</link>
+      <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/posts/0002-python__init__/</guid>
+      <description> What python init.py is used for </description>
+    </item>
+    
+    <item>
       <title>SITE RELIABILITY ENGINEER - Reading Notes</title>
-      <link>https://bruno-yamada.github.io/posts/site_reliability_engineer/</link>
+      <link>https://bruno-yamada.github.io/posts/0001-site_reliability_engineer/</link>
       <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
       
-      <guid>https://bruno-yamada.github.io/posts/site_reliability_engineer/</guid>
-      <description>SITE RELIABILITY ENGINEER - Reading Notes Chapter 1 - Introduction  Hope is not a strategy
+      <guid>https://bruno-yamada.github.io/posts/0001-site_reliability_engineer/</guid>
+      <description>SITE RELIABILITY ENGINEER - Reading Notes Part 1 - Introduction Chapter 1 - Introduction  Hope is not a strategy
  At Google, most SREs are either from SoftDev team or are from closely related positions, but almost always they are devs
 Google&amp;rsquo;s approach has SREs dedicate at max 50% of their time to ops tickets, the other 50% is spent in developing
  We want systems that are automatic, not just automated</description>
