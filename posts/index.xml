@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bruno Yamada</title>
@@ -12,12 +12,21 @@
     
     
     <item>
+      <title>What indempotency means</title>
+      <link>https://bruno-yamada.github.io/posts/0003-idempotency/</link>
+      <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/posts/0003-idempotency/</guid>
+      <description>What python init.py is used for </description>
+    </item>
+    
+    <item>
       <title>What python __init__.py is used for</title>
       <link>https://bruno-yamada.github.io/posts/0002-python__init__/</link>
       <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
       
       <guid>https://bruno-yamada.github.io/posts/0002-python__init__/</guid>
-      <description> What python init.py is used for </description>
+      <description>What python init.py is used for </description>
     </item>
     
     <item>

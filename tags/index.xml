@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bruno Yamada</title>
@@ -12,11 +12,38 @@
     
     
     <item>
+      <title>Concepts</title>
+      <link>https://bruno-yamada.github.io/tags/concepts/</link>
+      <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/tags/concepts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://bruno-yamada.github.io/tags/devops/</link>
+      <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>https://bruno-yamada.github.io/tags/python/</link>
       <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
       
       <guid>https://bruno-yamada.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SRE</title>
+      <link>https://bruno-yamada.github.io/tags/sre/</link>
+      <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/tags/sre/</guid>
       <description></description>
     </item>
     
@@ -30,29 +57,11 @@
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://bruno-yamada.github.io/tags/devops/</link>
-      <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
-      
-      <guid>https://bruno-yamada.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Review</title>
       <link>https://bruno-yamada.github.io/tags/review/</link>
       <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
       
       <guid>https://bruno-yamada.github.io/tags/review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SRE</title>
-      <link>https://bruno-yamada.github.io/tags/sre/</link>
-      <pubDate>Wed, 01 Jan 2020 13:17:47 -0300</pubDate>
-      
-      <guid>https://bruno-yamada.github.io/tags/sre/</guid>
       <description></description>
     </item>
     

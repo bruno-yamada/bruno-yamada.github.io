@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SRE on Bruno Yamada</title>
@@ -6,10 +6,19 @@
     <description>Recent content in SRE on Bruno Yamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 13:17:47 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:17:47 -0300</lastBuildDate>
     
 	<atom:link href="https://bruno-yamada.github.io/categories/sre/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What indempotency means</title>
+      <link>https://bruno-yamada.github.io/posts/0003-idempotency/</link>
+      <pubDate>Wed, 26 Feb 2020 00:17:47 -0300</pubDate>
+      
+      <guid>https://bruno-yamada.github.io/posts/0003-idempotency/</guid>
+      <description>What python init.py is used for </description>
+    </item>
     
     <item>
       <title>SITE RELIABILITY ENGINEER - Reading Notes</title>
