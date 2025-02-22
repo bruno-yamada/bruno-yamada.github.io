@@ -81,7 +81,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'BRY',
+        title: 'B.R.Y.',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Bruno R Yamada.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bruno R. Yamada.`,
       },
       prism: {
         theme: prismThemes.github,
