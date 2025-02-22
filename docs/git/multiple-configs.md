@@ -41,8 +41,7 @@ Then customize your settings for your individual files:
 [user]
 	name = Bruno R. Yamada
 	email = bryamada@gmail.com
-	signingkey = ssh-ed25519 A........H3 bryamada@gmail.com # <= .pub of the sining key
-
+	signingkey = ~/.ssh/id_bryamada.pub
 ```
 
 ## 3. SSH Git Push settings
