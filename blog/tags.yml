@@ -2,3 +2,7 @@ terraform:
   label: terraform
   permalink: /terraform
   description: Terraform posts
+docusaurus:
+  label: docusaurus
+  permalink: /docusaurus
+  description: Docusaurus posts
