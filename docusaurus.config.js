@@ -14,6 +14,26 @@ const config = {
   tagline: 'Notes from a  technologist',
   favicon: 'img/favicon.ico',
 
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+
+        // For Docs using Chinese, it is recomended to set:
+        // language: ["en", "zh"],
+
+        // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
+        // forceIgnoreNoIndex: true,
+      }),
+    ],
+  ],
+
+
   // Set the production url of your site here
   url: 'https://bruno-yamada.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served

@@ -21,3 +21,16 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+bruno-yamada:
+  name: Bruno Yamada
+  url: https://github.com/bruno-yamada
+  title: himself
+  image_url: https://github.com/bruno-yamada.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/bruno-yamada'
+  socials:
+    #x: BrunoRYamada
+    linkedin: bruno-yamada
+    github: bruno-yamada

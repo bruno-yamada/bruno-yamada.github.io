@@ -1,13 +1,19 @@
 ---
-title: terraform patterns
+slug: terraform-patterns
+title: Terraform Patterns
+authors: bruno-yamada
+tags: [ terraform ]
 ---
-# terraform patterns
+
+# Terraform Patterns
 
 ## Context
 
-Taking a look today at this post: https://www.resourcely.io/post/10-terraform-config-root-setups
-
 Trying to figure out the best setup for a specific case of a multi-env single-repo, trunk-based setup
+
+<!-- truncate -->
+
+Taking a look today at this post: https://www.resourcely.io/post/10-terraform-config-root-setups
 
 Without looking at the post, I was thinking of something like the 3rd approach `Multi-env setup with shared modules`, or even the 7th with `Monorepo with multiple services`
 
