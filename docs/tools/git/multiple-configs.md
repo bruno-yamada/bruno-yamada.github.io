@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Using multiple configs with git ssh
 
 Scenario: you work for companyA and personal, and want to use different keys and user for each

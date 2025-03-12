@@ -1,10 +1,3 @@
----
-slug: terraform-patterns
-title: Terraform Patterns
-authors: bruno-yamada
-tags: [ terraform ]
----
-
 # Terraform Patterns
 
 ## Context
