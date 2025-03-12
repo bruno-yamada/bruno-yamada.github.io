@@ -1,4 +1,4 @@
-# Using OIDC to connect vault to okta
+# Connecting to Vault using OKTA OIDC
 
 If you ever have to configure OIDC method to connect to vault using Okta, you may find it a bit difficult,
 specially when it comes to mapping the groups and claims
