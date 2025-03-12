@@ -111,7 +111,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'notesSidebar',
             position: 'left',
-            label: 'Notes',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -125,10 +125,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Notes',
+            title: 'Docs',
             items: [
               {
-                label: 'TODOTutorial',
+                label: 'Intro',
                 to: '/docs/intro',
               },
             ],

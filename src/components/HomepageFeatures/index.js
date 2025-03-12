@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Notes',
+    title: 'Docs',
     Svg: require('@site/static/img/notes.svg').default,
     description: (
       <>
-        Notes focused on labs, tools, runbooks, experimentations and more.
+        Docs and notes focused on labs, tools, runbooks, experimentations and more.
       </>
     ),
   },
