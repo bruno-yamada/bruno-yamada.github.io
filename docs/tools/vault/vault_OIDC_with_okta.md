@@ -88,7 +88,10 @@ vault write auth/oidc/role/myapp-admin -<<EOF
   "user_claim": "sub",
   "groups_claim": "groups",
   "bound_audiences": "$OKTA_CLIENT_ID",
-  "allowed_redirect_uris": "http://localhost:8250/oidc/callback",
+  "allowed_redirect_uris": [
+    "http://localhost:8250/oidc/callback",
+    "$VAULT_ADDR/ui/vault/auth/oidc/oidc/callback"
+  ],
   "role_type": "oidc",
   "policies": "myapp-admin",
   "oidc_scopes": ["openid", "groups"],
