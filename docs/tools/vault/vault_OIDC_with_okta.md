@@ -90,7 +90,8 @@ vault write auth/oidc/role/myapp-admin -<<EOF
   "bound_audiences": "$OKTA_CLIENT_ID",
   "allowed_redirect_uris": [
     "http://localhost:8250/oidc/callback",
-    "$VAULT_ADDR/ui/vault/auth/oidc/oidc/callback"
+    "$VAULT_ADDR/ui/vault/auth/oidc/oidc/callback",
+    "$VAULT_ADDR/v1/auth/oidc/oidc/callback"
   ],
   "role_type": "oidc",
   "policies": "myapp-admin",
