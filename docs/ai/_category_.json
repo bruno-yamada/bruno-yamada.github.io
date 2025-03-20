@@ -1,0 +1,9 @@
+{
+  "label": "AI",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "General documentation and notes about usage of AI tools"
+  }
+}
