@@ -28,3 +28,26 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+li .stability-ai > a::before {
+  /* content: url('/img/docusaurus.png');
+  display: inline;
+  margin-right: 8px; Add spacing between the image and the text */
+  background-image: url('/img/stability.ai.png');
+  background-size: 16px 16px;
+  margin-right: 8px;
+  display: inline-block;
+  width: 16px; 
+  height: 16px;
+  content:"";
+}
+
+li .copilot > a::before {
+  background-image: url('/img/copilot.png');
+  background-size: 16px 16px;
+  margin-right: 8px;
+  display: inline-block;
+  width: 16px; 
+  height: 16px;
+  content:"";
+}
