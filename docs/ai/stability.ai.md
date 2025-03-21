@@ -1,6 +1,10 @@
+---
+sidebar_class_name: stability-ai
+---
+
 # Stability.AI
 
-Stability.AI is an big player in the world of artificial intelligence. They’re all about making AI accessible to everyone by focusing on `open-source models` and tools. Their mission resonates with a vision of democratizing AI, fostering innovation, and encouraging collaboration across industries, as stated multiple times by their former CEO, Emad Mostaque
+Stability.AI is an big player in the world of artificial intelligence. They’re all about making AI accessible to everyone by focusing on `open-source models` and tools. Their mission resonates with a vision of democratizing AI, fostering innovation, and encouraging collaboration across industries, as stated multiple times by their former CEO, `Emad Mostaque`
 
 The term "stability" is used due to their intent to democratizing AI by focusing on open-source models and tools that empower `individuals` and communities, in an inclusive way, ensuring that AI benefits everyone, not just a few.
 
